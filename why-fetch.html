@@ -1,644 +1,173 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Why Fetch — Fetch Mobility</title>
+    <meta name="description" content="Effortless, sustainable and accessible transportation — Fetch is more than just a ride.">
+    <meta name="theme-color" content="#F2F2F2">
     <link rel="icon" type="image/x-icon" href="img/icons/favicon.ico">
-
-    <!-- bootstrap grid css -->
-    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
-    <!-- font awesome css -->
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
-    <!-- swiper css -->
-    <link rel="stylesheet" href="css/plugins/swiper.min.css">
-    <!-- fancybox css -->
-    <link rel="stylesheet" href="css/plugins/fancybox.min.css">
-    <!-- ashley scss -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&family=Source+Sans+3:wght@200..900&display=swap">
     <link rel="stylesheet" href="css/style.css">
-    <!-- page name -->
-    <title>Why Fetch ?</title>
-
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
-    <a href="index.html">
-        <img
-          src="img/photo/logo.png"
-          alt="Logo"
-          class="removed-logo"
-          style="
-            width: 120px;
-            height: 120px;
-            position: absolute;
-            top: 10px;
-            left: 60px;
-          "
-      /></a>
-    <!-- wrapper -->
-    <div class="mil-wrapper" id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
 
-        <!-- cursor -->
-        <div class="mil-ball">
-            <span class="mil-icon-1">
-                <svg viewBox="0 0 128 128">
-                    <path d="M106.1,41.9c-1.2-1.2-3.1-1.2-4.2,0c-1.2,1.2-1.2,3.1,0,4.2L116.8,61H11.2l14.9-14.9c1.2-1.2,1.2-3.1,0-4.2	c-1.2-1.2-3.1-1.2-4.2,0l-20,20c-1.2,1.2-1.2,3.1,0,4.2l20,20c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2	L11.2,67h105.5l-14.9,14.9c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9l20-20c1.2-1.2,1.2-3.1,0-4.2L106.1,41.9	z" />
-                </svg>
-            </span>
-            <div class="mil-more-text">More</div>
-            <div class="mil-choose-text">Сhoose</div>
-        </div>
-        <!-- cursor end -->
-
-        <!-- preloader -->
-        <!-- <div class="mil-preloader">
-            <div class="mil-preloader-animation">
-                <div class="mil-pos-abs mil-animation-1">
-                    <p class="mil-h3 mil-muted mil-thin">Pioneering</p>
-                    <p class="mil-h3 mil-muted">Creative</p>
-                    <p class="mil-h3 mil-muted mil-thin">Excellence</p>
-                </div>
-                <div class="mil-pos-abs mil-animation-2">
-                    <div class="mil-reveal-frame">
-                        <p class="mil-reveal-box"></p>
-                        <p class="mil-h3 mil-muted mil-thin">ashley.com</p>
-                    </div>
-                </div>
+    <header class="site-header">
+        <div class="wrap">
+            <div class="brand">
+                <a href="index.html" class="wordmark" aria-label="Fetch Mobility — home"></a>
+                <span class="brand-sep" aria-hidden="true"></span>
+                <span class="brand-desc">Mobility for sustainability</span>
             </div>
-        </div> -->
-        <!-- preloader end -->
-
-        <!-- scrollbar progress -->
-        <div class="mil-progress-track">
-            <div class="mil-progress"></div>
-        </div>
-        <!-- scrollbar progress end -->
-
-        <!-- menu -->
-        <div class="mil-menu-frame">
-            <!-- frame clone -->
-            <div class="mil-frame-top">
-                <!-- <a href="index.html" class="mil-logo">A.</a> -->
-                <a href="index.html" class="mil-logo">
-                    <img src="img/photo/logo-light.png" alt="Logo" style="width: 120px; height: auto;">
-                </a>
-                <div class="mil-menu-btn">
-                    <span></span>
-                </div>
-            </div>
-            <!-- frame clone end -->
-            <div class="container">
-                <div class="mil-menu-content">
-                    <div class="row">
-                        <div class="col-xl-5">
-                            <nav class="mil-main-menu" id="swupMenu">
-                                <ul>
-                                    <li class="mil-has-children">
-                                        <a href="index.html">Home</a>
-                                        <!-- <ul>
-                                            <li><a href="home-1.html">Landing page</a></li>
-                                            <li><a href="home-2.html">Personal</a></li>
-                                            <li><a href="portfolio-3.html">Portfolio slider</a></li>
-                                        </ul> -->
-                                    </li>
-                                    <li class="mil-has-children">
-                                        <a href="about.html">About</a>
-                                        <!-- <ul>
-                                            <li><a href="portfolio-1.html">Grid type 1</a></li>
-                                            <li><a href="portfolio-2.html">Grid type 2</a></li>
-                                            <li><a href="portfolio-3.html">Slider</a></li>
-                                        </ul> -->
-                                    </li>
-                                    <li class="mil-has-children">
-                                        <a href="product.html">Product</a>
-                                    </li>
-                                    <li class="mil-has-children mil-active">
-                                        <a href="why-fetch.html">Why Fetch</a>
-                                        <!-- <ul>
-                                            <li><a href="services.html">Services List</a></li>
-                                            <li><a href="service.html">Single service</a></li>
-                                        </ul> -->
-                                    </li>
-
-
-                                    <!-- #TODO: Uncomment -->
-                                    <!-- <li class="mil-has-children"> -->
-                                        <!-- #TODO: Add href value -->
-                                        <!-- <a href="#.">Product</a> -->
-                                        <!-- <ul>
-                                            <li><a href="blog.html">Blog List</a></li>
-                                            <li><a href="publication.html">Publication</a></li>
-                                        </ul> -->
-                                    <!-- </li> -->
-                                     <!-- #TODO: Uncomment -->
-                                    <!-- <li class="mil-has-children"> -->
-                                        <!-- <a href="blog.html">Blog</a> -->
-                                        <!-- <ul>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="404.html">404</a></li>
-                                        </ul> -->
-                                    <!-- </li> -->
-                                    <li class="mil-has-children">
-                                        <a href="contact.html">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
-
-                        </div>
-                    </div>
-                </div>
+            <span class="header-mid">Fetch your way</span>
+            <div class="header-end">
+                <span class="clock" data-clock>Bengaluru, IST</span>
+                <button class="menu-btn js-only" type="button" aria-expanded="false" aria-controls="menu">menu</button>
+                <a class="menu-btn nojs-only" href="#footer-nav">menu</a>
             </div>
         </div>
-        <!-- menu -->
+    </header>
 
-        <!-- curtain -->
-        <div class="mil-curtain"></div>
-        <!-- curtain end -->
-
-        <!-- frame -->
-        <div class="mil-frame">
-            <div class="mil-frame-top">
-                <!-- <a href="index.html" class="mil-logo">A.</a> -->
-                <a href="index.html" class="mil-logo">
-                    <img src="img/photo/logo.png" alt="Logo" class="responsive-logo" style="width: 120px; height: auto;">
-                </a>
-                <div class="mil-menu-btn">
-                    <span></span>
-                </div>
-            </div>
-            <div class="mil-frame-bottom">
-                <div class="mil-current-page"></div>
-                <div class="mil-back-to-top">
-                    <a href="#top" class="mil-link mil-dark mil-arrow-place">
-                        <span>Back to top</span>
-                    </a>
-                </div>
-            </div>
+    <div class="menu dark" id="menu" aria-hidden="true">
+        <nav aria-label="Main">
+            <ol class="menu-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="why-fetch.html" aria-current="page">Why Fetch</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ol>
+        </nav>
+        <div class="menu-foot mono">
+            <a href="mailto:connect@fetchmobility.in">connect@fetchmobility.in</a>
+            <span class="br">Fetch your way</span>
         </div>
-        <!-- frame end -->
-
-        <!-- content -->
-        <div class="mil-content" id="swupMain">
-            <div class="mil-main-transition">
-
-                <!-- banner -->
-                <div class="mil-inner-banner">
-                    <div class="mil-banner-content mil-up">
-                        <div class="mil-animation-frame">
-                            <div class="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="6" data-value-2="1.4"></div>
-                        </div>
-                        <div class="container">
-                            <ul class="mil-breadcrumbs mil-mb-60">
-                                <li><a href="index.html">Homepage</a></li>
-                                <li><a href="why-fetch.html">Why Fetch</a></li>
-                            </ul>
-                            <h1 class="mil-mb-60"><span class="mil-thin">Why </span>Fetch ?</h1>
-                            <a href="#portfolio" class="mil-link mil-dark mil-arrow-place mil-down-arrow">
-                                <span>Learn More</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- banner end -->
-
-                <!-- portfolio -->
-                <section id="portfolio">
-                    <div class="container mil-portfolio mil-p-120-60">
-
-                        <div class="mil-lines-place"></div>
-                        <div class="mil-lines-place mil-lines-long"></div>
-
-                        <div class="row justify-content-between align-items-end">
-                            <!-- <div class="col-lg-6">
-
-                                <a href="portfolio-1.html" class="mil-portfolio-item mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover mil-scale" data-value-1="1.2" data-value-2="1">
-                                            <img src="img/works/1.jpg" alt="cover">
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Branding</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up">Interior design studio</h4>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="col-lg-5">
-
-                                <a href="project-2.html" class="mil-portfolio-item mil-more mil-parallax mil-mb-60" data-value-1="-30" data-value-2="0">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover">
-                                            <img src="img/works/2.jpg" alt="cover">
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Design</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up">Home Security Camera</h4>
-                                    </div>
-                                </a>
-
-                            </div> -->
-                            <div class="col-lg-12">
-
-                                <a href="project-3.html" class="mil-portfolio-item mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover">
-                                            <img src="img/works/why-fetch.jpg" alt="cover">
-                                        </div>
-                                    </div>
-                                    <!-- <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Photography</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up">Kemia Honest Skincare</h4>
-                                    </div> -->
-                                </a>
-
-                            </div>
-
-                            <!-- <div class="col-lg-5">
-
-                                <a href="project-4.html" class="mil-portfolio-item mil-more mil-parallax mil-mb-60" data-value-1="-30" data-value-2="0">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover">
-                                            <img src="img/works/4.jpg" alt="cover">
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Design</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up">Cascade of Lava</h4>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="col-lg-6">
-
-                                <a href="project-5.html" class="mil-portfolio-item mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover">
-                                            <img src="img/works/5.jpg" alt="cover">
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Design</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up">Air Pro by Molekule</h4>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="col-lg-12">
-
-                                <a href="project-6.html" class="mil-portfolio-item mil-more mil-mb-60">
-                                    <div class="mil-cover-frame mil-hori mil-up">
-                                        <div class="mil-cover">
-                                            <img src="img/works/6.jpg" alt="cover">
-                                        </div>
-                                    </div>
-                                    <div class="mil-descr">
-                                        <div class="mil-labels mil-up mil-mb-15">
-                                            <div class="mil-label mil-upper mil-accent">Design</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up">Tony's Chocolonely</h4>
-                                    </div>
-                                </a>
-
-                            </div> -->
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-
-                                <p class="mil-text-xl mil-dark mil-up mil-mb-60">Fetch Mobility offers you more than just a ride! We are dedicated to revolutionizing the way people move around by offering effortless, sustainable, and accessible transportation solutions with our smart electric trikes.</p>
-
-                                <blockquote class="mil-up mil-mb-60">“At Fetch Mobility, we believe everyone deserves easy and affordable access to transportation.”</blockquote>
-
-                                <!-- <h5 class="mil-up mil-mb-30">Understand the Field</h5> -->
-                                <p class="mil-up mil-mb-60">Whether you are a student, staff member, professor or IT professional, Fetch scooters are designed and built for all. Fetch is available for anyone on campus, ensuring all can move freely, comfortably and independently. But that’s not all. With Fetch, we’re not just helping you move—we’re helping shape a smarter, more sustainable world, one ride at a time.</p>
-
-                                <h5 class="mil-up mil-mb-30">It’s easy on you and even easier on earth.</h5>
-                                <p class="mil-up mil-mb-60">With Fetch, we’re not just helping you move—we’re helping shape a smarter, more sustainable world, one ride at a time. Riding fetch will not only help you choose convenience but also choose to make a difference! Our emission free & energy-efficient scooters bring a greener option for all, contributing in reducing the effective carbon footprint. Together, we can create a more sustainable and healthier environment for everyone.</p>
-
-                                <h5 class="mil-up mil-mb-30">Fast & Flexible - Perfect for any campus.</h5>
-                                <p class="mil-up mil-mb-60">Whether you are part of a massive or small university, IT campus or organisation, Fetch brings you freedom & flexibility to move around quickly. You can now stop worrying about parking, traffic or delays - Just hop on and fetch your way!</p>
-
-                                <h5 class="mil-up mil-mb-30">Why just ride Fetch when you can earn ?</h5>
-                                <p class="mil-up mil-mb-60">By joining Fetch Club you have a chance to be more than just a rider. Own a piece of the action by earning through the scooters deployed in your campus! <br> <br> The Fetch club offers you an opportunity to gain entrepreneurial experience while you study! Excited enough? For more details, simply download our app and embark on your entrepreneurial journey with Fetch today!</p>
-
-                                <!-- <div class="row">
-                                    <div class="col-lg-6">
-
-                                        <div class="mil-image-frame mil-horizontal mil-up mil-mb-30">
-                                            <img src="img/blog/4.jpg" alt="Publication cover">
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-6">
-
-                                        <div class="mil-image-frame mil-horizontal mil-up mil-mb-60">
-                                            <img src="img/blog/7.jpg" alt="Publication cover">
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <p class="mil-up mil-mb-60">Remember that creativity is at the core of graphic design. Embrace your creativity, experiment with different ideas, and think outside the box to create unique and impactful designs. Don't be afraid to take risks and push the boundaries of traditional design. Steve Jobs once said:</p>
-
-                                <blockquote class="mil-up mil-mb-60">
-                                    "Design is not just what it looks like and feels like. Design is how it works." So go ahead, unleash your creativity, and embark on your path to becoming a graphic designer!
-                                </blockquote>
-
-                                <p class="mil-up mil-mb-30">In addition to the aforementioned steps, other important aspects of becoming a graphic designer include networking with industry professionals, staying updated on design trends and technologies, and continuously learning and improving your skills.</p>
-
-                                <p class="mil-up mil-mb-30">Becoming a graphic designer is an exciting journey that requires dedication, hard work, and a genuine passion for design. By following these 10 simple steps, you'll be well on your way to establishing yourself as a skilled graphic designer and opening doors to a rewarding and fulfilling career.</p> -->
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- portfolio end -->
-
-                <!-- call to action -->
-                <section class="mil-soft-bg">
-                    <div class="container mil-p-120-120">
-                        <div class="row">
-                            <div class="col-lg-10">
-
-                                <span class="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">Take action</span>
-
-                            </div>
-                        </div>
-                        <div class="mil-center">
-                            <h2 class="mil-up mil-mb-60"><span class="mil-thin">⁠Choose a </span>sustainable ride <br><span class="mil-thin">for a </span>better tomorrow</h2>
-                            <div class="mil-up"><a href="contact.html" class="mil-button mil-arrow-place"><span>Contact us</span></a></div>
-                        </div>
-                    </div>
-                </section>
-                <!-- call to action end -->
-
-                <!-- footer -->
-                <footer class="mil-dark-bg">
-                    <div class="mi-invert-fix">
-                        <div class="container mil-p-120-60">
-                            <div class="row justify-content-between">
-                                <div class="col-md-4 col-lg-4 mil-mb-60">
-
-                                    <div class="mil-muted mil-logo mil-up mil-mb-30">
-                                        <img src="img/photo/logo2-light.png" alt="Logo" style="width: 120px; height: auto;">
-                                    </div>
-
-                                    <p class="mil-light-soft mil-up mil-mb-30" style="font-size: 20px;">
-                                                            Brand powered by <br />
-                                        Voltron Dynamics Private Limited <br />
-                                        S3, Ajith Industries, No 14/6, <br />
-                                        Cheemasandra Village, Virgonagar Post <br />
-                                        Bangalore - 560049
-                                        </p>
-
-                                    <!-- <form class="mil-subscribe-form mil-up">
-                                        <input type="text" placeholder="Enter our email">
-                                        <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
-                                    </form> -->
-
-                                </div>
-                                <div class="col-md-7 col-lg-6">
-                                    <div class="row justify-content-end">
-                                        <div class="col-md-6 col-lg-7">
-
-                                            <nav class="mil-footer-menu mil-mb-60">
-                                                <ul>
-                                                    <!-- #TODO: Add href value -->
-                                                    <li class="mil-up">
-                                                        <a href="index.html">Home</a>
-                                                    </li>
-                                                    <li class="mil-up">
-                                                        <a href="about.html">About</a>
-                                                    </li>
-                                                    <li class="mil-up">
-                                                        <a href="product.html">Product</a>
-                                                    </li>
-                                                    <li class="mil-up mil-active">
-                                                        <a href="why-fetch.html">Why Fetch</a>
-                                                    </li>
-                                                    <!-- #TODO: Uncomment -->
-                                                    <!-- <li class="mil-up">
-                                                        <a href="">Product</a>
-                                                    </li>
-                                                    <li class="mil-up">
-                                                        <a href="">Blog</a>
-                                                    </li> -->
-                                                    <li class="mil-up">
-                                                        <a href="contact.html">Contact</a>
-                                                    </li>
-                                                </ul>
-                                            </nav>
-
-                                        </div>
-                                        <div class="col-md-6 col-lg-5">
-
-                                            <ul class="mil-menu-list mil-up mil-mb-60">
-                                                <li><a href="policy.html" class="mil-light-soft">Privacy Policy</a></li>
-                                                <li><a href="terms.html" class="mil-light-soft">Terms & Conditions</a></li>
-                                                <li><a href="cancellation.html" class="mil-light-soft">Cancellation & Refund</a></li>
-                                                <li><a href="delivery.html" class="mil-light-soft">Shipping & Delivery</a></li>
-                                            </ul>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row justify-content-between flex-sm-row-reverse">
-                                <div class="col-md-7 col-lg-6">
-
-                                    <div class="row justify-content-between">
-
-                                        <div class="col-md-6 col-lg-5 mil-mb-60">
-
-                                            <!-- <h6 class="mil-muted mil-up mil-mb-10" style="font-size: 24px;">Contact Us</h6>
-
-                                            <p class="mil-light-soft mil-up"><span class="mil-no-wrap">+91 88849 30 908</span><br><span class="mil-no-wrap">+91 63605 76 086</span></p> -->
-
-                                        </div>
-                                        <div class="col-md-6 col-lg-5 mil-mb-60">
-
-                                            <h6 class="mil-muted mil-up mil-mb-10" style="font-size: 24px;">Reach Out</h6>
-
-                                            <p class="mil-light-soft mil-up"><span class="mil-no-wrap"><a href="mailto:connect@fetchmobility.in">connect@fetchmobility.in</a></span></p>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-4 col-lg-6 mil-mb-60">
-
-                                    <div class="mil-vert-between">
-                                        <div class="mil-mb-30">
-                                            <ul class="mil-social-icons mil-up">
-                                                <!-- #TODO: Add href value -->
-                                                <!-- <li><a href="#." target="_blank" class="social-icon"> <i class="fab fa-whatsapp fa-2x"></i></a></li> -->
-                                                <li><a href="https://www.linkedin.com/company/fetchmobility/" target="_blank" class="social-icon"> <i class="fab fa-linkedin fa-2x"></i></a></li>
-                                                <li><a href="https://www.instagram.com/fetchmobility" target="_blank" class="social-icon"> <i class="fab fa-instagram fa-2x"></i></a></li>
-                                                <!-- <li><a href="#." target="_blank" class="social-icon"> <i class="far fa-circle"></i></a></li> -->
-                                            </ul>
-                                        </div>
-                                        <p class="mil-light-soft mil-up">© Copyright 2024 - All Rights Reserved. <br> <a href="https://www.krisko.in">Developed by Krisko</a></p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-                <!-- footer end -->
-
-                <!-- hidden elements -->
-                <div class="mil-hidden-elements">
-                    <div class="mil-dodecahedron">
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                        <div class="mil-pentagon">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="mil-arrow">
-                        <path d="M 14 5.3417969 C 13.744125 5.3417969 13.487969 5.4412187 13.292969 5.6367188 L 13.207031 5.7226562 C 12.816031 6.1136563 12.816031 6.7467188 13.207031 7.1367188 L 17.070312 11 L 4 11 C 3.448 11 3 11.448 3 12 C 3 12.552 3.448 13 4 13 L 17.070312 13 L 13.207031 16.863281 C 12.816031 17.254281 12.816031 17.887344 13.207031 18.277344 L 13.292969 18.363281 C 13.683969 18.754281 14.317031 18.754281 14.707031 18.363281 L 20.363281 12.707031 C 20.754281 12.316031 20.754281 11.682969 20.363281 11.292969 L 14.707031 5.6367188 C 14.511531 5.4412187 14.255875 5.3417969 14 5.3417969 z" />
-                    </svg>
-
-                    <svg width="250" viewBox="0 0 300 1404" fill="none" xmlns="http://www.w3.org/2000/svg" class="mil-lines">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1 892L1 941H299V892C299 809.71 232.29 743 150 743C67.7096 743 1 809.71 1 892ZM0 942H300V892C300 809.157 232.843 742 150 742C67.1573 742 0 809.157 0 892L0 942Z" class="mil-move" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 146V97L1 97V146C1 228.29 67.7096 295 150 295C232.29 295 299 228.29 299 146ZM300 96L0 96V146C0 228.843 67.1573 296 150 296C232.843 296 300 228.843 300 146V96Z" class="mil-move" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 1H1V1403H299V1ZM0 0V1404H300V0H0Z" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 -4.37115e-08L150 1404L149 1404L149 0L150 -4.37115e-08Z" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 1324C232.29 1324 299 1257.29 299 1175C299 1092.71 232.29 1026 150 1026C67.7096 1026 1 1092.71 1 1175C1 1257.29 67.7096 1324 150 1324ZM150 1325C232.843 1325 300 1257.84 300 1175C300 1092.16 232.843 1025 150 1025C67.1573 1025 0 1092.16 0 1175C0 1257.84 67.1573 1325 150 1325Z" class="mil-move" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M300 1175H0V1174H300V1175Z" class="mil-move" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 678C232.29 678 299 611.29 299 529C299 446.71 232.29 380 150 380C67.7096 380 1 446.71 1 529C1 611.29 67.7096 678 150 678ZM150 679C232.843 679 300 611.843 300 529C300 446.157 232.843 379 150 379C67.1573 379 0 446.157 0 529C0 611.843 67.1573 679 150 679Z" class="mil-move" />
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 380H1V678H299V380ZM0 379V679H300V379H0Z" class="mil-move" />
-                    </svg>
-                </div>
-                <!-- hidden elements end -->
-
-            </div>
-        </div>
-        <!-- content -->
     </div>
-    <!-- wrapper end -->
 
-    <!-- jQuery js -->
-    <script src="js/plugins/jquery.min.js"></script>
-    <!-- swup js -->
-    <script src="js/plugins/swup.min.js"></script>
-    <!-- swiper js -->
-    <script src="js/plugins/swiper.min.js"></script>
-    <!-- fancybox js -->
-    <script src="js/plugins/fancybox.min.js"></script>
-    <!-- gsap js -->
+    <main id="main">
+
+        <section class="page-head">
+            <div class="wrap">
+                <div class="meta">
+                    <nav class="mono br" aria-label="Breadcrumb"><a href="index.html">Home</a> / Why Fetch</nav>
+                    <span class="pill-num" aria-hidden="true">01</span>
+                </div>
+                <h1 class="title" data-reveal>More than <em>just a ride.</em></h1>
+                <p class="lead muted intro" data-reveal style="--d:.15s">Fetch Mobility offers you more than just a ride! We are dedicated to revolutionizing the way people move around by offering effortless, sustainable, and accessible transportation solutions with our smart electric trikes.</p>
+            </div>
+        </section>
+
+        <div class="wrap">
+            <figure class="media wide" data-reveal><img src="img/works/why-fetch.jpg" alt="Riders on Fetch scooters"></figure>
+        </div>
+
+        <section class="section" aria-label="Our belief">
+            <div class="wrap split">
+                <blockquote class="quote scrub">At Fetch Mobility, we believe everyone deserves easy and affordable access to transportation.</blockquote>
+                <p class="lead muted" data-reveal>Whether you are a student, staff member, professor or IT professional, Fetch scooters are designed and built for all. Fetch is available for anyone on campus, ensuring all can move freely, comfortably and independently. But that’s not all. With Fetch, we’re not just helping you move—we’re helping shape a smarter, more sustainable world, one ride at a time.</p>
+            </div>
+        </section>
+
+        <section class="section" style="padding-top:0" aria-labelledby="reasons-title">
+            <div class="wrap">
+                <div class="big-head">
+                    <h2 class="title" id="reasons-title" data-reveal>Fetch your way</h2>
+                    <span class="pill-num" aria-hidden="true">02</span>
+                </div>
+                <div class="reasons">
+                    <article class="reason" data-reveal>
+                        <span class="mono br">01</span>
+                        <h3 class="h3">It’s easy on you and even easier on earth.</h3>
+                        <div class="prose muted"><p>With Fetch, we’re not just helping you move—we’re helping shape a smarter, more sustainable world, one ride at a time. Riding fetch will not only help you choose convenience but also choose to make a difference! Our emission free &amp; energy-efficient scooters bring a greener option for all, contributing in reducing the effective carbon footprint. Together, we can create a more sustainable and healthier environment for everyone.</p></div>
+                    </article>
+
+                    <article class="reason" data-reveal>
+                        <span class="mono br">02</span>
+                        <h3 class="h3">Fast &amp; Flexible - Perfect for any campus.</h3>
+                        <div class="prose muted"><p>Whether you are part of a massive or small university, IT campus or organisation, Fetch brings you freedom &amp; flexibility to move around quickly. You can now stop worrying about parking, traffic or delays - Just hop on and fetch your way!</p></div>
+                    </article>
+
+                    <article class="reason" data-reveal>
+                        <span class="mono br">03</span>
+                        <h3 class="h3">Why just ride Fetch when you can earn ?</h3>
+                        <div class="prose muted"><p>By joining Fetch Club you have a chance to be more than just a rider. Own a piece of the action by earning through the scooters deployed in your campus!</p><p>The Fetch club offers you an opportunity to gain entrepreneurial experience while you study! Excited enough? For more details, simply download our app and embark on your entrepreneurial journey with Fetch today!</p></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="cta-title" style="padding-bottom:0">
+            <div class="wrap">
+                <div class="cta-card" data-reveal>
+                    <div>
+                        <p class="mono br">Take action</p>
+                        <h2 class="title" id="cta-title">Choose a sustainable ride <em>for a better tomorrow.</em></h2>
+                    </div>
+                    <a href="contact.html" class="cta-circle"><span>Contact us<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></span></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer dark">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div>
+                    <a href="index.html" class="wordmark lime" aria-label="Fetch Mobility — home"></a>
+                    <address>
+                        Brand powered by
+                        <strong>Voltron Dynamics Private Limited</strong>
+                        S3, Ajith Industries, No 14/6,<br>
+                        Cheemasandra Village, Virgonagar Post<br>
+                        Bangalore - 560049
+                    </address>
+                </div>
+                <nav id="footer-nav" aria-labelledby="f-explore">
+                    <h2 class="mono" id="f-explore">Explore</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="why-fetch.html">Why Fetch</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav aria-labelledby="f-legal">
+                    <h2 class="mono" id="f-legal">Legal</h2>
+                    <ul>
+                        <li><a href="policy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                        <li><a href="cancellation.html">Cancellation &amp; Refund</a></li>
+                        <li><a href="delivery.html">Shipping &amp; Delivery</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <h2 class="mono">Reach out</h2>
+                    <a href="mailto:connect@fetchmobility.in" class="link">connect@fetchmobility.in</a>
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/company/fetchmobility/" target="_blank" rel="noopener" aria-label="Fetch Mobility on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3V9.75zM9.5 9.75h3.83v1.54h.06c.53-1 1.84-2.06 3.79-2.06 4.05 0 4.8 2.67 4.8 6.13V21h-4v-4.99c0-1.19-.02-2.72-1.66-2.72-1.66 0-1.92 1.3-1.92 2.63V21h-4V9.75z"/></svg></a>
+                        <a href="https://www.instagram.com/fetchmobility" target="_blank" rel="noopener" aria-label="Fetch Mobility on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <span class="footer-mark" aria-hidden="true"></span>
+            <div class="footer-bottom mono">
+                <span class="br">© Copyright 2024 - All Rights Reserved.</span>
+                <a href="https://www.krisko.in" target="_blank" rel="noopener" class="br">Developed by Krisko</a>
+            </div>
+        </div>
+    </footer>
+
     <script src="js/plugins/gsap.min.js"></script>
-    <!-- scroll smoother -->
-    <script src="js/plugins/smooth-scroll.js"></script>
-    <!-- scroll trigger js -->
     <script src="js/plugins/ScrollTrigger.min.js"></script>
-    <!-- scroll to js -->
-    <script src="js/plugins/ScrollTo.min.js"></script>
-    <!-- ashley js -->
     <script src="js/main.js"></script>
-
 </body>
 
 </html>

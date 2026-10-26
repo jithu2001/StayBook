@@ -1,347 +1,179 @@
 <!DOCTYPE html>
-<html lang="zxx">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping &amp; Delivery — Fetch Mobility</title>
+    <meta name="description" content="Shipping and delivery terms for Fetch Mobility orders.">
+    <meta name="theme-color" content="#F2F2F2">
     <link rel="icon" type="image/x-icon" href="img/icons/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&family=Source+Sans+3:wght@200..900&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <script>document.documentElement.classList.add("js");</script>
+</head>
 
-    <!-- bootstrap grid css -->
-    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css" />
-    <!-- font awesome css -->
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css" />
-    <!-- swiper css -->
-    <link rel="stylesheet" href="css/plugins/swiper.min.css" />
-    <!-- fancybox css -->
-    <link rel="stylesheet" href="css/plugins/fancybox.min.css" />
-    <!-- ashley scss -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- page name -->
-    <title>Shipping & Delivery</title>
-  </head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-  <body>
-    <a href="index.html">
-        <img
-          src="img/photo/logo.png"
-          alt="Logo"
-          class="removed-logo"
-          style="
-            width: 120px;
-            height: 120px;
-            position: absolute;
-            top: 10px;
-            left: 60px;
-          "
-      /></a>
-    <!-- wrapper -->
-    <div class="mil-wrapper" id="top">
-      <!-- cursor -->
-      <div class="mil-ball">
-        <span class="mil-icon-1">
-          <svg viewBox="0 0 128 128">
-            <path
-              d="M106.1,41.9c-1.2-1.2-3.1-1.2-4.2,0c-1.2,1.2-1.2,3.1,0,4.2L116.8,61H11.2l14.9-14.9c1.2-1.2,1.2-3.1,0-4.2	c-1.2-1.2-3.1-1.2-4.2,0l-20,20c-1.2,1.2-1.2,3.1,0,4.2l20,20c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2	L11.2,67h105.5l-14.9,14.9c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9l20-20c1.2-1.2,1.2-3.1,0-4.2L106.1,41.9	z"
-            />
-          </svg>
-        </span>
-        <div class="mil-more-text">More</div>
-        <div class="mil-choose-text">Сhoose</div>
-      </div>
-      <!-- cursor end -->
-
-      <!-- preloader -->
-      <!-- <div class="mil-preloader">
-            <div class="mil-preloader-animation">
-                <div class="mil-pos-abs mil-animation-1">
-                    <p class="mil-h3 mil-muted mil-thin">Pioneering</p>
-                    <p class="mil-h3 mil-muted">Creative</p>
-                    <p class="mil-h3 mil-muted mil-thin">Excellence</p>
-                </div>
-                <div class="mil-pos-abs mil-animation-2">
-                    <div class="mil-reveal-frame">
-                        <p class="mil-reveal-box"></p>
-                        <p class="mil-h3 mil-muted mil-thin">ashley.com</p>
-                    </div>
-                </div>
+    <header class="site-header">
+        <div class="wrap">
+            <div class="brand">
+                <a href="index.html" class="wordmark" aria-label="Fetch Mobility — home"></a>
+                <span class="brand-sep" aria-hidden="true"></span>
+                <span class="brand-desc">Mobility for sustainability</span>
             </div>
-        </div> -->
-      <!-- preloader end -->
-
-      <!-- scrollbar progress -->
-      <div class="mil-progress-track">
-        <div class="mil-progress"></div>
-      </div>
-      <!-- scrollbar progress end -->
-
-      <!-- curtain -->
-      <div class="mil-curtain"></div>
-      <!-- curtain end -->
-
-      <!-- frame -->
-      <div class="mil-frame">
-        <div class="mil-frame-top">
-          <a href="index.html" class="mil-logo">
-            <img
-              src="img/photo/logo.png"
-              alt="Logo"
-              class="responsive-logo"
-              style="width: 120px; height: auto"
-            />
-          </a>
-        </div>
-        <div class="mil-frame-bottom">
-          <div class="mil-current-page"></div>
-          <div class="mil-back-to-top">
-            <a href="index.html" class="mil-link mil-dark mil-arrow-place">
-              <span>Back to Home</span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- frame end -->
-
-      <!-- content -->
-      <div class="mil-content" id="swupMain">
-        <div class="mil-main-transition">
-          <!-- banner -->
-          <div class="mil-inner-banner">
-            <div class="mil-banner-content mil-center mil-up">
-              <div class="container">
-                <ul class="mil-breadcrumbs mil-center mil-mb-60">
-                  <li><a href="index.html">Fetch</a></li>
-                  <li><a href="delivery.html">Shipping & Delivery</a></li>
-                  <!-- <li><a href="blog.html">Publication</a></li> -->
-                </ul>
-                <h2>Shipping <span class="mil-thin">& </span>Delivery</h2>
-              </div>
+            <span class="header-mid">Fetch your way</span>
+            <div class="header-end">
+                <span class="clock" data-clock>Bengaluru, IST</span>
+                <button class="menu-btn js-only" type="button" aria-expanded="false" aria-controls="menu">menu</button>
+                <a class="menu-btn nojs-only" href="#footer-nav">menu</a>
             </div>
-          </div>
-          <!-- banner end -->
-
-          <!-- publication -->
-          <section id="blog">
-            <div class="container mil-p-120-90">
-              <div class="row justify-content-center">
-                <div class="col-lg-12">
-                  <!-- <div class="mil-image-frame mil-horizontal mil-up">
-                                    <img src="img/blog/3.jpg" alt="Publication cover" class="mil-scale" data-value-1=".90" data-value-2="1.15">
-                                </div>
-                                <div class="mil-info mil-up mil-mb-90">
-                                    <div>Category: &nbsp;<span class="mil-dark">Technology</span></div>
-                                    <div>Date: &nbsp;<span class="mil-dark">April 2023</span></div>
-                                    <div>Author: &nbsp;<span class="mil-dark">Paul Trueman</span></div>
-                                </div> -->
-                </div>
-                <div class="col-lg-8">
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-60">
-                    At Fetch Mobility, we are committed to ensuring timely and
-                    secure delivery of your orders. This policy outlines the
-                    terms and conditions for shipping and delivery, which may
-                    vary depending on order volume, location, and customization
-                    requirements.
-                  </p>
-
-                  <h5 class="mil-up mil-mb-20" style="font-size: 28px">
-                    1. Shipping Terms
-                  </h5>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    <b>• Order Confirmation:</b>
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    - Orders are processed and confirmed upon receipt of an
-                    approved Purchase Order and advance payment as per our
-                    Upfront Sale Model terms.
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    - Any changes to the order, including volume or
-                    customization, must be communicated before production
-                    begins.
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    <b>• Shipping Method:</b>
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    - Products are shipped using reliable logistics partners,
-                    selected based on destination and order specifications.
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-60">
-                    - Shipping methods and timelines will be communicated during
-                    order confirmation.
-                  </p>
-
-                  <h5 class="mil-up mil-mb-20" style="font-size: 28px">
-                    2. Delivery Timeframes
-                  </h5>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    • Delivery timelines depend on:
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    - <b>Order Volume:</b> Larger orders may require additional
-                    production and handling time.
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    - <b>Customization:</b> Orders requiring special
-                    customization may take longer to fulfill.
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    - <b>Location:</b> Delivery times vary based on the
-                    geographical location of the client. Remote areas may
-                    require additional transit time.
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-60">
-                    Estimated delivery timelines will be provided after the
-                    order is confirmed.
-                  </p>
-
-                  <h5 class="mil-up mil-mb-20" style="font-size: 28px">
-                    3. Shipping Costs
-                  </h5>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    • Shipping charges are calculated based on order volume,
-                    destination, and any special requirements (e.g., expedited
-                    shipping).
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-60">
-                    • Shipping costs will be detailed in the Purchase Order or
-                    invoice provided to the client.
-                  </p>
-
-                  <h5 class="mil-up mil-mb-20" style="font-size: 28px">
-                    4. Ownership and Risk
-                  </h5>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    • Ownership of products transfers to the client upon full
-                    payment and delivery.
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-60">
-                    • Fetch Mobility is not liable for delays caused by
-                    unforeseen circumstances, including natural disasters,
-                    transportation issues, or customs delays.
-                  </p>
-
-                  <h5 class="mil-up mil-mb-20" style="font-size: 28px">
-                    5. Delivery Inspection
-                  </h5>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    • Clients are required to inspect the delivery upon receipt.
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-60">
-                    • Any discrepancies, damages, or defects must be reported to
-                    Fetch Mobility within 10 business days of delivery.
-                  </p>
-
-                  <h5 class="mil-up mil-mb-20" style="font-size: 28px">
-                    6. International Shipping
-                  </h5>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    • For orders outside India, clients are responsible for any
-                    additional fees, including customs duties, taxes, or import
-                    regulations.
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-60">
-                    • Delivery timelines for international orders may vary
-                    depending on customs clearance procedures.
-                  </p>
-
-                  <h5 class="mil-up mil-mb-20" style="font-size: 28px">
-                    7. Contact Information
-                  </h5>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    • For shipping or delivery inquiries, please contact us at:
-                  </p>
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-15">
-                    <b>Email:</b> contact@fetchmobility.in
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- publication end -->
-
-          <!-- similar -->
-          <!-- <section class="mil-soft-bg">
-                    <div class="container mil-p-120-60">
-                        <div class="row align-items-center mil-mb-30">
-                            <div class="col-lg-6 mil-mb-30">
-                                <h3 class="mil-up">Similar Publications:</h3>
-                            </div>
-                            <div class="col-lg-6 mil-mb-30">
-                                <div class="mil-adaptive-right mil-up">
-                                    <a href="blog-inner.html" class="mil-link mil-dark mil-arrow-place">
-                                        <span>View all</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-
-                                <a href="publication.html" class="mil-blog-card mil-mb-60">
-                                    <div class="mil-cover-frame mil-up">
-                                        <img src="img/blog/8.jpg" alt="cover">
-                                    </div>
-                                    <div class="mil-post-descr">
-                                        <div class="mil-labels mil-up mil-mb-30">
-                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up mil-mb-30">How to Become a Graphic Designer in 10 Simple Steps</h4>
-                                        <p class="mil-post-text mil-up mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
-                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
-                                            <span>Read more</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                            </div>
-                            <div class="col-lg-6">
-
-                                <a href="publication.html" class="mil-blog-card mil-mb-60">
-                                    <div class="mil-cover-frame mil-up">
-                                        <img src="img/blog/1.jpg" alt="cover">
-                                    </div>
-                                    <div class="mil-post-descr">
-                                        <div class="mil-labels mil-up mil-mb-30">
-                                            <div class="mil-label mil-upper mil-accent">TECHNOLOGY</div>
-                                            <div class="mil-label mil-upper">may 24 2023</div>
-                                        </div>
-                                        <h4 class="mil-up mil-mb-30">16 Best Graphic Design Online and Offline Courses</h4>
-                                        <p class="mil-post-text mil-up mil-mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos optio, beatae, eos necessitatibus nisi. Nam cupiditate consectetur nostrum qui! Repellat natus nulla, nisi aliquid, asperiores impedit tempora sequi est reprehenderit cumque explicabo, dicta. Rem nihil ullam totam ea voluptas quibusdam repudiandae id ut at iure! Totam, a!</p>
-                                        <div class="mil-link mil-dark mil-arrow-place mil-up">
-                                            <span>Read more</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                            </div>
-                        </div>
-                    </div>
-                </section> -->
-          <!-- similar end -->
         </div>
-      </div>
-      <!-- content -->
+    </header>
+
+    <div class="menu dark" id="menu" aria-hidden="true">
+        <nav aria-label="Main">
+            <ol class="menu-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="why-fetch.html">Why Fetch</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ol>
+        </nav>
+        <div class="menu-foot mono">
+            <a href="mailto:connect@fetchmobility.in">connect@fetchmobility.in</a>
+            <span class="br">Fetch your way</span>
+        </div>
     </div>
-    <!-- wrapper end -->
 
-    <!-- jQuery js -->
-    <script src="js/plugins/jquery.min.js"></script>
-    <!-- swup js -->
-    <script src="js/plugins/swup.min.js"></script>
-    <!-- swiper js -->
-    <script src="js/plugins/swiper.min.js"></script>
-    <!-- fancybox js -->
-    <script src="js/plugins/fancybox.min.js"></script>
-    <!-- gsap js -->
+    <main id="main">
+
+        <section class="page-head">
+            <div class="wrap">
+                <div class="meta">
+                    <nav class="mono br" aria-label="Breadcrumb"><a href="index.html">Home</a> / Shipping &amp; Delivery</nav>
+                    <span class="pill-num" aria-hidden="true">§</span>
+                </div>
+                <h1 class="title" data-reveal>Shipping <em>&amp; Delivery</em></h1>
+                
+            </div>
+        </section>
+
+        <section class="section" style="padding-top:0" aria-label="Shipping &amp; Delivery">
+            <div class="wrap legal">
+                <nav class="toc" aria-label="On this page">
+                    <div class="sticky">
+                        <p class="mono br" style="margin-bottom:18px">On this page</p>
+                        <ol>
+                            <li><a href="#1-shipping-terms">1. Shipping Terms</a></li>
+                            <li><a href="#2-delivery-timeframes">2. Delivery Timeframes</a></li>
+                            <li><a href="#3-shipping-costs">3. Shipping Costs</a></li>
+                            <li><a href="#4-ownership-and-risk">4. Ownership and Risk</a></li>
+                            <li><a href="#5-delivery-inspection">5. Delivery Inspection</a></li>
+                            <li><a href="#6-international-shipping">6. International Shipping</a></li>
+                            <li><a href="#7-contact-information">7. Contact Information</a></li>
+                        </ol>
+                    </div>
+                </nav>
+                <article class="legal-body">
+                    <p class="lead">At Fetch Mobility, we are committed to ensuring timely and secure delivery of your orders. This policy outlines the terms and conditions for shipping and delivery, which may vary depending on order volume, location, and customization requirements.</p>
+
+                    <section id="1-shipping-terms">
+                        <h2>1. Shipping Terms</h2>
+                        <p class="b"><strong>Order Confirmation:</strong></p><p class="sub">Orders are processed and confirmed upon receipt of an approved Purchase Order and advance payment as per our Upfront Sale Model terms.</p><p class="sub">Any changes to the order, including volume or customization, must be communicated before production begins.</p><p class="b"><strong>Shipping Method:</strong></p><p class="sub">Products are shipped using reliable logistics partners, selected based on destination and order specifications.</p><p class="sub">Shipping methods and timelines will be communicated during order confirmation.</p>
+                    </section>
+
+                    <section id="2-delivery-timeframes">
+                        <h2>2. Delivery Timeframes</h2>
+                        <p class="b">Delivery timelines depend on:</p><p class="sub"><strong>Order Volume:</strong> Larger orders may require additional production and handling time.</p><p class="sub"><strong>Customization:</strong> Orders requiring special customization may take longer to fulfill.</p><p class="sub"><strong>Location:</strong> Delivery times vary based on the geographical location of the client. Remote areas may require additional transit time.</p><p>Estimated delivery timelines will be provided after the order is confirmed.</p>
+                    </section>
+
+                    <section id="3-shipping-costs">
+                        <h2>3. Shipping Costs</h2>
+                        <p class="b">Shipping charges are calculated based on order volume, destination, and any special requirements (e.g., expedited shipping).</p><p class="b">Shipping costs will be detailed in the Purchase Order or invoice provided to the client.</p>
+                    </section>
+
+                    <section id="4-ownership-and-risk">
+                        <h2>4. Ownership and Risk</h2>
+                        <p class="b">Ownership of products transfers to the client upon full payment and delivery.</p><p class="b">Fetch Mobility is not liable for delays caused by unforeseen circumstances, including natural disasters, transportation issues, or customs delays.</p>
+                    </section>
+
+                    <section id="5-delivery-inspection">
+                        <h2>5. Delivery Inspection</h2>
+                        <p class="b">Clients are required to inspect the delivery upon receipt.</p><p class="b">Any discrepancies, damages, or defects must be reported to Fetch Mobility within 10 business days of delivery.</p>
+                    </section>
+
+                    <section id="6-international-shipping">
+                        <h2>6. International Shipping</h2>
+                        <p class="b">For orders outside India, clients are responsible for any additional fees, including customs duties, taxes, or import regulations.</p><p class="b">Delivery timelines for international orders may vary depending on customs clearance procedures.</p>
+                    </section>
+
+                    <section id="7-contact-information">
+                        <h2>7. Contact Information</h2>
+                        <p class="b">For shipping or delivery inquiries, please contact us at:</p><p><strong>Email:</strong> <a href="mailto:contact@fetchmobility.in">contact@fetchmobility.in</a></p>
+                    </section>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer dark">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div>
+                    <a href="index.html" class="wordmark lime" aria-label="Fetch Mobility — home"></a>
+                    <address>
+                        Brand powered by
+                        <strong>Voltron Dynamics Private Limited</strong>
+                        S3, Ajith Industries, No 14/6,<br>
+                        Cheemasandra Village, Virgonagar Post<br>
+                        Bangalore - 560049
+                    </address>
+                </div>
+                <nav id="footer-nav" aria-labelledby="f-explore">
+                    <h2 class="mono" id="f-explore">Explore</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="why-fetch.html">Why Fetch</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav aria-labelledby="f-legal">
+                    <h2 class="mono" id="f-legal">Legal</h2>
+                    <ul>
+                        <li><a href="policy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                        <li><a href="cancellation.html">Cancellation &amp; Refund</a></li>
+                        <li><a href="delivery.html">Shipping &amp; Delivery</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <h2 class="mono">Reach out</h2>
+                    <a href="mailto:connect@fetchmobility.in" class="link">connect@fetchmobility.in</a>
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/company/fetchmobility/" target="_blank" rel="noopener" aria-label="Fetch Mobility on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3V9.75zM9.5 9.75h3.83v1.54h.06c.53-1 1.84-2.06 3.79-2.06 4.05 0 4.8 2.67 4.8 6.13V21h-4v-4.99c0-1.19-.02-2.72-1.66-2.72-1.66 0-1.92 1.3-1.92 2.63V21h-4V9.75z"/></svg></a>
+                        <a href="https://www.instagram.com/fetchmobility" target="_blank" rel="noopener" aria-label="Fetch Mobility on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <span class="footer-mark" aria-hidden="true"></span>
+            <div class="footer-bottom mono">
+                <span class="br">© Copyright 2024 - All Rights Reserved.</span>
+                <a href="https://www.krisko.in" target="_blank" rel="noopener" class="br">Developed by Krisko</a>
+            </div>
+        </div>
+    </footer>
+
     <script src="js/plugins/gsap.min.js"></script>
-    <!-- scroll smoother -->
-    <script src="js/plugins/smooth-scroll.js"></script>
-    <!-- scroll trigger js -->
     <script src="js/plugins/ScrollTrigger.min.js"></script>
-    <!-- scroll to js -->
-    <script src="js/plugins/ScrollTo.min.js"></script>
-    <!-- ashley js -->
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
